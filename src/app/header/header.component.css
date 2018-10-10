@@ -1,0 +1,101 @@
+@media (min-width:544px){
+
+    .logo
+{
+    font-size: smaller;
+    background-image: url("/assets/images/WhiteLogo.png") ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+}
+
+.appname
+{
+    font-size: smaller;
+}
+}
+
+@media(min-width:768px){
+    .logo
+    {
+        font-size: small;
+    }
+    
+.appname
+{
+    font-size: small;
+}
+}
+
+@media(min-width:992px){
+    .logo
+    {
+        font-size: medium;
+    }
+    
+.appname
+{
+    font-size: medium;
+}
+}
+
+@media(min-width:1200px)
+{
+    .logo
+{
+    font-size: large;
+}
+
+.appname
+{
+    font-size: large;
+}
+}
+
+
+.page-header {
+    background-image: url("/assets/images/HeaderBG.svg") ;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+    }
+
+    .spacer
+    {
+        flex:1 1 auto;
+    }
+
+    .appspacer
+    {
+        flex:1 1 auto;
+    }
+
+    .tbar
+{
+    background-color: rgb(5, 5, 43);
+    background-image: url("/assets/images/HeaderBG.svg") ;
+    color: #ffffff;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    
+    max-height: 1%;
+    min-height: 1%;
+    max-width: 100%;
+    width: 100%;
+}
+
+.tbarrow
+{
+    
+   
+    min-height: 20px;;
+    max-width: 100%;
+    width: 100%;
+}
+

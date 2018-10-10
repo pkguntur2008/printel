@@ -1,0 +1,11 @@
+.login{
+    width: 30%;
+    min-width: 30%;
+    height: 20%;
+    min-height: 20%;
+}
+.loginheader
+{
+    background-color: rgb(5, 5, 43);
+    color: #ffffff;
+}
