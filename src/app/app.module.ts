@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import { MaterialModule } from './material.module';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { MaterialModule } from './material.module';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,MaterialModule

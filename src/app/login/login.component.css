@@ -3,9 +3,19 @@
     min-width: 30%;
     height: 20%;
     min-height: 20%;
+    
+    margin: 0 auto;
+    float: none;
 }
 .loginheader
 {
     background-color: rgb(5, 5, 43);
     color: #ffffff;
+    width: 100%;
+    min-width: 100%;
+}
+
+.cardform
+{
+    margin-top: 2%;
 }
