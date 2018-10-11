@@ -7,7 +7,9 @@ import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import { MaterialModule } from './material.module';
 import { HomeComponent } from './home/home.component';
-
+import { AppRoutingModule } from './app-routing.module';
+import {HttpClientModule} from '@angular/common/http';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
@@ -15,12 +17,13 @@ import { HomeComponent } from './home/home.component';
     HeaderComponent,
     FooterComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    MainComponent
   ],
   imports: [
-    BrowserModule,MaterialModule
+    BrowserModule,MaterialModule,MaterialModule,HttpClientModule,AppRoutingModule
   ],
-  providers: [],
+  providers: [HttpClientModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

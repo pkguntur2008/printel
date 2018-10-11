@@ -6,21 +6,21 @@
       </mat-card-header>
     
     <mat-card-content class="cardform">
-     <form class="form">
+     <form class="form" (ngSubmit)="onSubmit()" [formGroup]="loginForm">
        <div  class="form-group">
           Enter Username
-          <input matInput class="form-control"/>
+          <input matInput class="form-control" formControlName="username"/>
        </div>
         <div  class="form-group">
           Enter password
-            <input matInput class="form-control"/>
+            <input matInput class="form-control" formControlName="userpwd"/>
 
         </div>
        
      </form>
     </mat-card-content>
     <mat-card-actions style="padding-left: 15px;">
-      <button mat-button>Submit</button>
+      <button class="btn btn-info" (click)="onSubmit()">Submit</button>
       
     </mat-card-actions>
   </mat-card>
